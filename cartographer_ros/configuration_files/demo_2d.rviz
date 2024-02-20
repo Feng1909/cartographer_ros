@@ -71,6 +71,8 @@ Visualization Manager:
           Value: true
         horizontal_laser_link:
           Value: true
+        vehicle1:
+          Value: true
         imu_link:
           Value: true
         map:
@@ -89,6 +91,8 @@ Visualization Manager:
           odom:
             base_link:
               horizontal_laser_link:
+                {}
+              vehicle1:
                 {}
               imu_link:
                 {}
@@ -111,6 +115,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
         horizontal_laser_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        vehicle1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
