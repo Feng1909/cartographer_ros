@@ -53,7 +53,7 @@ MAP_BUILDER.use_trajectory_builder_2d = true
 
 TRAJECTORY_BUILDER_2D.submaps.num_range_data = 35
 TRAJECTORY_BUILDER_2D.min_range = 0.3
-TRAJECTORY_BUILDER_2D.max_range = 18.
+TRAJECTORY_BUILDER_2D.max_range = 28.
 TRAJECTORY_BUILDER_2D.missing_data_ray_length = 1.
 TRAJECTORY_BUILDER_2D.use_imu_data = false
 TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = true
