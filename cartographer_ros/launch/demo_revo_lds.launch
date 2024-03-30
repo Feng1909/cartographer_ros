@@ -27,8 +27,8 @@
   </node>
   <node name="cartographer_occupancy_grid_node1" pkg="cartographer_ros"
       type="cartographer_occupancy_grid_node" args="-resolution 0.01" />
-  <node name="rviz1" pkg="rviz" type="rviz" required="true"
-      args="-d $(find cartographer_ros)/configuration_files/demo_2d1.rviz" />
+  <!-- <node name="rviz1" pkg="rviz" type="rviz" required="true"
+      args="-d $(find cartographer_ros)/configuration_files/demo_2d1.rviz" /> -->
   </group>
 
   <group ns="robot2" >
@@ -42,7 +42,7 @@
   </node>
   <node name="cartographer_occupancy_grid_node2" pkg="cartographer_ros"
       type="cartographer_occupancy_grid_node" args="-resolution 0.01" />
-  <node name="rviz2" pkg="rviz" type="rviz" required="true"
-      args="-d $(find cartographer_ros)/configuration_files/demo_2d2.rviz" />
+  <!-- <node name="rviz2" pkg="rviz" type="rviz" required="true"
+      args="-d $(find cartographer_ros)/configuration_files/demo_2d2.rviz" /> -->
   </group>
 </launch>
